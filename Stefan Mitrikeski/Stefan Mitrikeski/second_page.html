@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="second_page.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img class="background" src="https://fsb.zobj.net/crop.php?r=5eLA0mWaOmSmM3YglJgt-6xfqmELvznt1FVd6GhDRxCp3HsplDID3IGOY_i9TS-_t_Wj97jlP7UU3SqaCmMM0mWrNWGbjvzpbxYBJGZfym9i4_LqnUwXaB7TThHITYeVXlg9cxCGopwxIaKO" alt="">
+    <header>
+        <h1 id="username">Hello</h1>
+    </header>
+    <div id="searchWrapper" >
+        
+        <div id='filters'>
+            <input
+            type="text"
+            name="name"
+            id="nameSearchField"
+            value=""
+            class="search-name"
+            placeholder="Search by Name"/>
+            
+            
+            <input
+            type="text"
+            name="color"
+            id="colorSearchField"
+            value=""
+            placeholder="Search by Color" hidden/>
+            
+            <input class="btn" id="submitBtn" type="submit" value="Submit"><i class="fa fa-search" aria-hidden="true"></i></input>
+            
+            <select id="color">
+                <option value="Select type" disabled selected hidden >Choose Color</option>
+                <option value="White">White</option>
+                <option value="Blue">Blue</option>
+                <option value="Black">Black</option>
+                <option value="Red">Red</option>
+                <option value="Green">Green</option>
+              </select>
+    
+             <select  id="hero">
+                <option value="Select type" disabled selected hidden >Choose hero type</option>
+              </select>
+    
+              <input class="btn" id="ascending" type="button" value="Ascending">
+              <input class="btn " id="descending" type="button" value="Descending">
+        </div>
+
+          <div id="loader"></div>
+    <div id="cards"></div>
+    <script src="second_page.js"></script>
+</body>
+</html>
+

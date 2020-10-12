@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+  background-color: #e6e6e6;
+}
+#description > h1 {
+  padding: 18%;
+}
+#description > h3 {
+  padding-left: 55%;
+}
+#wrapper {
+  position: relative;
+  top: 150px;
+  display: flex;
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+  box-shadow: 9px 9px 25px 8px;
+}
+#description {
+  width: 50%;
+  height: 500px;
+}
+.tram-background {
+  width: 50%;
+  height: 100%;
+  opacity: 0.5;
+  position: absolute;
+}
+#containig {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.user {
+  position: relative;
+  bottom: 71px;
+  width: 31%;
+  height: 50%;
+  margin: 0 auto;
+}
+.submitBtn {
+  margin: 0 auto;
+  border-radius: 8px;
+  width: 55%;
+  margin-top: 11%;
+  height: 10%;
+  font-family: "Roboto", sans-serif;
+  background-color: seagreen;
+  border: none;
+}
+#warnings{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  color: red;
+  font-size: 15px;
+  font-weight: 900
+}
+#warnings > label{
+  margin-top: 10px;
+}
+.nameInpt {
+  width: 88%;
+  height: 10%;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding-left: 15px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}
+#character_warning,
+#capital_letter {
+  color: red;
+  padding-left: 20px;
+  margin-top: 5%;
+  display: none;
+}
